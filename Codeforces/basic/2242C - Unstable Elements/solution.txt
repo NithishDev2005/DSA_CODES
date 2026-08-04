@@ -1,0 +1,80 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int t = sc.nextInt();
+
+        while (t-- > 0) {
+            int n = sc.nextInt();
+            int k = sc.nextInt();
+
+            int[] a = new int[n];
+
+            for (int i = 0; i < n; i++) {
+                a[i] = sc.nextInt();
+            }
+
+            // Find sizes of equal groups
+            ArrayList<Integer> groups = new ArrayList<>();
+
+            int count = 1;
+
+            for (int i = 1; i < n; i++) {
+                if (a[i] == a[i - 1]) {
+                    count++;
+                } else {
+                    groups.add(count);
+                    count = 1;
+                }
+            }
+
+            groups.add(count);
+
+            // Sort group sizes
+            Collections.sort(groups);
+
+            int ans = 0;
+            int m = groups.size();
+
+            long sum = n;
+            int previous = 0;
+
+            int i = 0;
+
+            while (i < m) {
+
+                int current = groups.get(i);
+                int alive = m - i;
+
+                // Delete until the smallest groups
+                // have size 1
+                sum -= (long) (current - previous - 1) * alive;
+
+                // At this stage we can duplicate all
+                // currently alive groups.
+                if (k >= sum && (k - sum) % alive == 0) {
+                    ans++;
+                }
+
+                // One more deletion removes groups
+                // whose original size is 'current'
+                sum -= alive;
+
+                int j = i;
+
+                while (j < m && groups.get(j) == current) {
+                    j++;
+                }
+
+                previous = current;
+                i = j;
+            }
+
+            System.out.println(ans);
+        }
+
+        sc.close();
+    }
+}
