@@ -23,3 +23,4 @@
 | 21 | [779D - String Game](./Codeforces/basic/779D%20-%20String%20Game) | [Codeforces](https://codeforces.com/problemset/problem/779/D) | basic | 04 Aug 2026 | 03:14 pm |
 | 22 | [2200A - Eating Game](./Codeforces/basic/2200A%20-%20Eating%20Game) | [Codeforces](https://codeforces.com/problemset/problem/2200/A) | basic | 04 Aug 2026 | 03:14 pm |
 | 23 | [2194D - Table Cut](./Codeforces/basic/2194D%20-%20Table%20Cut) | [Codeforces](https://codeforces.com/problemset/problem/2194/D) | basic | 04 Aug 2026 | 03:14 pm |
+| 24 | [2194C - Secret message](./Codeforces/basic/2194C%20-%20Secret%20message) | [Codeforces](https://codeforces.com/problemset/problem/2194/C) | basic | 04 Aug 2026 | 03:14 pm |
