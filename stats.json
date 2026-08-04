@@ -1,26 +1,28 @@
 {
-  "totalSolved": 3,
+  "totalSolved": 4,
   "currentStreak": 1,
   "maxStreak": 1,
   "lastSyncDate": "2026-08-04",
-  "todayCount": 3,
+  "todayCount": 4,
   "difficultyCounts": {
     "easy": 0,
     "medium": 0,
     "hard": 0,
-    "basic": 3
+    "basic": 4
   },
   "syncedProblems": {
     "Codeforces_266B_-_Queue_at_the_School": true,
     "Codeforces_1030A_-_In_Search_of_an_Easy_Problem": true,
-    "Codeforces_116A_-_Tram": true
+    "Codeforces_116A_-_Tram": true,
+    "Codeforces_2250A_-_Threshold_Movement": true
   },
   "activityHistory": {
-    "2026-08-04": 3
+    "2026-08-04": 4
   },
   "todayProblems": [
     "266B - Queue at the School",
     "1030A - In Search of an Easy Problem",
-    "116A - Tram"
+    "116A - Tram",
+    "2250A - Threshold Movement"
   ]
 }
