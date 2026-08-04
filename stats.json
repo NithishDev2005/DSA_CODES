@@ -1,14 +1,14 @@
 {
-  "totalSolved": 6,
+  "totalSolved": 7,
   "currentStreak": 1,
   "maxStreak": 1,
   "lastSyncDate": "2026-08-04",
-  "todayCount": 6,
+  "todayCount": 7,
   "difficultyCounts": {
     "easy": 0,
     "medium": 0,
     "hard": 0,
-    "basic": 6
+    "basic": 7
   },
   "syncedProblems": {
     "Codeforces_266B_-_Queue_at_the_School": true,
@@ -16,10 +16,11 @@
     "Codeforces_116A_-_Tram": true,
     "Codeforces_2250A_-_Threshold_Movement": true,
     "Codeforces_271A_-_Beautiful_Year": true,
-    "Codeforces_677A_-_Vanya_and_Fence": true
+    "Codeforces_677A_-_Vanya_and_Fence": true,
+    "Codeforces_58A_-_Chat_room": true
   },
   "activityHistory": {
-    "2026-08-04": 6
+    "2026-08-04": 7
   },
   "todayProblems": [
     "266B - Queue at the School",
@@ -27,6 +28,7 @@
     "116A - Tram",
     "2250A - Threshold Movement",
     "271A - Beautiful Year",
-    "677A - Vanya and Fence"
+    "677A - Vanya and Fence",
+    "58A - Chat room"
   ]
 }
