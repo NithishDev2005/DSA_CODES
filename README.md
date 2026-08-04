@@ -25,3 +25,4 @@
 | 23 | [2194D - Table Cut](./Codeforces/basic/2194D%20-%20Table%20Cut) | [Codeforces](https://codeforces.com/problemset/problem/2194/D) | basic | 04 Aug 2026 | 03:14 pm |
 | 24 | [2194C - Secret message](./Codeforces/basic/2194C%20-%20Secret%20message) | [Codeforces](https://codeforces.com/problemset/problem/2194/C) | basic | 04 Aug 2026 | 03:14 pm |
 | 25 | [2242C - Unstable Elements](./Codeforces/basic/2242C%20-%20Unstable%20Elements) | [Codeforces](https://codeforces.com/problemset/problem/2242/C) | basic | 04 Aug 2026 | 03:15 pm |
+| 26 | [2239B - Decidophobia](./Codeforces/basic/2239B%20-%20Decidophobia) | [Codeforces](https://codeforces.com/problemset/problem/2239/B) | basic | 04 Aug 2026 | 06:26 pm |
