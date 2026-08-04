@@ -1,0 +1,24 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int y = sc.nextInt();
+        while (true) {
+            y++;
+            if (isDistinct(y)) {
+                System.out.println(y);
+                break;
+            }
+        }
+    }
+
+    static boolean isDistinct(int year) {
+        String s = String.valueOf(year);
+        Set<Character> set = new HashSet<>();
+        for (char c : s.toCharArray()) {
+            if (!set.add(c)) return false;
+        }
+        return true;
+    }
+}
