@@ -16,3 +16,4 @@
 | 14 | [59A - Word](./Codeforces/basic/59A%20-%20Word) | [Codeforces](https://codeforces.com/problemset/problem/59/A) | basic | 04 Aug 2026 | 03:13 pm |
 | 15 | [266A - Stones on the Table](./Codeforces/basic/266A%20-%20Stones%20on%20the%20Table) | [Codeforces](https://codeforces.com/problemset/problem/266/A) | basic | 04 Aug 2026 | 03:13 pm |
 | 16 | [158A - Next Round](./Codeforces/basic/158A%20-%20Next%20Round) | [Codeforces](https://codeforces.com/problemset/problem/158/A) | basic | 04 Aug 2026 | 03:13 pm |
+| 17 | [282A - Bit](./Codeforces/basic/282A%20-%20Bit) | [Codeforces](https://codeforces.com/problemset/problem/282/A) | basic | 04 Aug 2026 | 03:13 pm |
