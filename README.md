@@ -12,3 +12,4 @@
 | 10 | [96A - Football](./Codeforces/basic/96A%20-%20Football) | [Codeforces](https://codeforces.com/problemset/problem/96/A) | basic | 04 Aug 2026 | 03:13 pm |
 | 11 | [734A - Anton and Danik](./Codeforces/basic/734A%20-%20Anton%20and%20Danik) | [Codeforces](https://codeforces.com/problemset/problem/734/A) | basic | 04 Aug 2026 | 03:13 pm |
 | 12 | [110A - Nearly Lucky Number](./Codeforces/basic/110A%20-%20Nearly%20Lucky%20Number) | [Codeforces](https://codeforces.com/problemset/problem/110/A) | basic | 04 Aug 2026 | 03:13 pm |
+| 13 | [69A - Young Physicist](./Codeforces/basic/69A%20-%20Young%20Physicist) | [Codeforces](https://codeforces.com/problemset/problem/69/A) | basic | 04 Aug 2026 | 03:13 pm |
