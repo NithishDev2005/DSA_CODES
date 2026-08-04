@@ -9,3 +9,4 @@
 | 7 | [677A - Vanya and Fence](./Codeforces/basic/677A%20-%20Vanya%20and%20Fence) | [Codeforces](https://codeforces.com/problemset/problem/677/A) | basic | 04 Aug 2026 | 03:13 pm |
 | 8 | [58A - Chat room](./Codeforces/basic/58A%20-%20Chat%20room) | [Codeforces](https://codeforces.com/problemset/problem/58/A) | basic | 04 Aug 2026 | 03:13 pm |
 | 9 | [41A - Translation](./Codeforces/basic/41A%20-%20Translation) | [Codeforces](https://codeforces.com/problemset/problem/41/A) | basic | 04 Aug 2026 | 03:13 pm |
+| 10 | [96A - Football](./Codeforces/basic/96A%20-%20Football) | [Codeforces](https://codeforces.com/problemset/problem/96/A) | basic | 04 Aug 2026 | 03:13 pm |

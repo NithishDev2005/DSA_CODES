@@ -1,14 +1,14 @@
 {
-  "totalSolved": 8,
+  "totalSolved": 9,
   "currentStreak": 1,
   "maxStreak": 1,
   "lastSyncDate": "2026-08-04",
-  "todayCount": 8,
+  "todayCount": 9,
   "difficultyCounts": {
     "easy": 0,
     "medium": 0,
     "hard": 0,
-    "basic": 8
+    "basic": 9
   },
   "syncedProblems": {
     "Codeforces_266B_-_Queue_at_the_School": true,
@@ -18,10 +18,11 @@
     "Codeforces_271A_-_Beautiful_Year": true,
     "Codeforces_677A_-_Vanya_and_Fence": true,
     "Codeforces_58A_-_Chat_room": true,
-    "Codeforces_41A_-_Translation": true
+    "Codeforces_41A_-_Translation": true,
+    "Codeforces_96A_-_Football": true
   },
   "activityHistory": {
-    "2026-08-04": 8
+    "2026-08-04": 9
   },
   "todayProblems": [
     "266B - Queue at the School",
@@ -31,6 +32,7 @@
     "271A - Beautiful Year",
     "677A - Vanya and Fence",
     "58A - Chat room",
-    "41A - Translation"
+    "41A - Translation",
+    "96A - Football"
   ]
 }
