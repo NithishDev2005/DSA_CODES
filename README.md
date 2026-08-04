@@ -21,3 +21,4 @@
 | 19 | [71A - Way Too Long Words](./Codeforces/basic/71A%20-%20Way%20Too%20Long%20Words) | [Codeforces](https://codeforces.com/problemset/problem/71/A) | basic | 04 Aug 2026 | 03:13 pm |
 | 20 | [4A - Watermelon](./Codeforces/basic/4A%20-%20Watermelon) | [Codeforces](https://codeforces.com/problemset/problem/4/A) | basic | 04 Aug 2026 | 03:14 pm |
 | 21 | [779D - String Game](./Codeforces/basic/779D%20-%20String%20Game) | [Codeforces](https://codeforces.com/problemset/problem/779/D) | basic | 04 Aug 2026 | 03:14 pm |
+| 22 | [2200A - Eating Game](./Codeforces/basic/2200A%20-%20Eating%20Game) | [Codeforces](https://codeforces.com/problemset/problem/2200/A) | basic | 04 Aug 2026 | 03:14 pm |

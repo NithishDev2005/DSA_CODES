@@ -1,0 +1,33 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int t=sc.nextInt();
+        while(t-->0){
+            int n=sc.nextInt();
+            int[] arr=new int[n];
+            long dishes=0;
+            for(int i=0;i<n;i++){
+                arr[i]=sc.nextInt();
+                dishes+=arr[i];
+            }
+            Set<Integer>winner=new HashSet<>();
+            for(int i=0;i<n;i++){
+                int[] temp=arr.clone();
+                long curr=dishes;
+                int curr_play=i;
+                int j=-1;
+                while(curr>0){
+                    if (temp[curr_play]>0){
+                        temp[curr_play]--;
+                        curr--;
+                        j=curr_play+1;
+                    }
+                    curr_play=(curr_play+1)%n;
+                }
+                winner.add(j);
+            }
+            System.out.println(winner.size());
+        }
+    }
+}
