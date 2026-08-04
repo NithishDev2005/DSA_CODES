@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner scanner=new Scanner(System.in);
+        
+        if(scanner.hasNextInt()){
+            int n=scanner.nextInt();
+            
+            scanner.nextLine();
+            
+            for(int i=0;i<n;i++){
+                String word=scanner.nextLine();
+                
+                if(word.length()>10){
+                    
+                    char first=word.charAt(0);
+                    char last=word.charAt(word.length()-1);
+                    
+                    
+                    int cnt=word.length()-2;
+                    
+                    System.out.println(first+String.valueOf(cnt)+last);
+                }
+                else{
+                    System.out.println(word);
+                }
+            }
+        }
+    }
+}
