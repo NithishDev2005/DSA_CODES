@@ -19,3 +19,4 @@
 | 17 | [282A - Bit](./Codeforces/basic/282A%20-%20Bit) | [Codeforces](https://codeforces.com/problemset/problem/282/A) | basic | 04 Aug 2026 | 03:13 pm |
 | 18 | [231A - Team](./Codeforces/basic/231A%20-%20Team) | [Codeforces](https://codeforces.com/problemset/problem/231/A) | basic | 04 Aug 2026 | 03:13 pm |
 | 19 | [71A - Way Too Long Words](./Codeforces/basic/71A%20-%20Way%20Too%20Long%20Words) | [Codeforces](https://codeforces.com/problemset/problem/71/A) | basic | 04 Aug 2026 | 03:13 pm |
+| 20 | [4A - Watermelon](./Codeforces/basic/4A%20-%20Watermelon) | [Codeforces](https://codeforces.com/problemset/problem/4/A) | basic | 04 Aug 2026 | 03:14 pm |
