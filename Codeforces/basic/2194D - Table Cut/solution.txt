@@ -1,0 +1,77 @@
+import java.util.*;
+public class Main{
+static void solve(Scanner sc){
+int n=sc.nextInt(),m=sc.nextInt();
+int[][]pref=new int[n][m+1];
+long total=0;
+for(int i=0;i<n;i++){
+for(int j=0;j<m;j++){
+int v=sc.nextInt();
+pref[i][j+1]=pref[i][j]+v;
+total+=v;
+}
+}
+int[][]minDp=new int[n+1][m+1];
+int[][]maxDp=new int[n+1][m+1];
+for(int j=1;j<=m;j++){
+minDp[0][j]=minDp[0][j-1];
+maxDp[0][j]=maxDp[0][j-1];
+}
+for(int i=1;i<=n;i++){
+minDp[i][0]=minDp[i-1][0]+pref[i-1][0];
+maxDp[i][0]=maxDp[i-1][0]+pref[i-1][0];
+}
+for(int i=1;i<=n;i++){
+for(int j=1;j<=m;j++){
+int down=pref[i-1][j];
+int mnTop=minDp[i-1][j]+down;
+int mxTop=maxDp[i-1][j]+down;
+int mnLeft=minDp[i][j-1];
+int mxLeft=maxDp[i][j-1];
+minDp[i][j]=Math.min(mnTop,mnLeft);
+maxDp[i][j]=Math.max(mxTop,mxLeft);
+}
+}
+int minTotal=minDp[n][m];
+int maxTotal=maxDp[n][m];
+long target=total/2;
+long cand=target;
+if(cand<minTotal)cand=minTotal;
+if(cand>maxTotal)cand=maxTotal;
+long bestA=cand;
+long maxProd=bestA*(total-bestA);
+if(cand+1<=maxTotal){
+long alt=cand+1;
+long prod=alt*(total-alt);
+if(prod>maxProd){
+bestA=alt;
+maxProd=prod;
+}
+}
+System.out.println(maxProd);
+char[]path=new char[n+m];
+int idx=n+m-1,r=n,c=m;
+long curr=bestA;
+while(r>0||c>0){
+boolean fromTop=false;
+if(r>0){
+long req=curr-pref[r-1][c];
+if(req>=minDp[r-1][c]&&req<=maxDp[r-1][c])fromTop=true;
+}
+if(fromTop){
+path[idx--]='D';
+curr-=pref[r-1][c];
+r--;
+}else{
+path[idx--]='R';
+c--;
+}
+}
+System.out.println(new String(path));
+}
+public static void main(String[]args){
+Scanner sc=new Scanner(System.in);
+int t=sc.nextInt();
+while(t-->0)solve(sc);
+}
+}
