@@ -1,0 +1,61 @@
+import java.util.*;
+
+public class Main {
+
+    static String t, p;
+    static int[] order;
+
+    static boolean check(int k) {
+        int n = t.length();
+
+        boolean[] removed = new boolean[n];
+
+        for (int i = 0; i < k; i++) {
+            removed[order[i] - 1] = true;
+        }
+
+        int j = 0;
+
+        for (int i = 0; i < n && j < p.length(); i++) {
+            if (!removed[i] && t.charAt(i) == p.charAt(j)) {
+                j++;
+            }
+        }
+
+        return j == p.length();
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        t = sc.next();
+        p = sc.next();
+
+        int n = t.length();
+
+        order = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            order[i] = sc.nextInt();
+        }
+
+        int low = 0;
+        int high = n;
+        int ans = 0;
+
+        while (low <= high) {
+
+            int mid = low + (high - low) / 2;
+
+            if (check(mid)) {
+                ans = mid;
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+
+        System.out.println(ans);
+    }
+}
