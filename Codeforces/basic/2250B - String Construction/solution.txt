@@ -1,0 +1,95 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int t = sc.nextInt();
+
+        while (t-- > 0) {
+            int n = sc.nextInt();
+            int k = sc.nextInt();
+
+            int zero = (n + 1) / 2;
+            int one = n / 2;
+
+            int blocks = n - k;
+
+            if (n == 1) {
+                System.out.println("0");
+                continue;
+            }
+
+            if (blocks < 2 || blocks > (2 * Math.min(zero, one) + (zero != one ? 1 : 0))) {
+                System.out.println(-1);
+                continue;
+            }
+
+            ArrayList<StringBuilder> seg = new ArrayList<>();
+
+            char cur = (zero >= one) ? '0' : '1';
+
+            int z = zero;
+            int o = one;
+
+            boolean ok = true;
+
+            // Create required number of blocks
+            for (int i = 0; i < blocks; i++) {
+                StringBuilder sb = new StringBuilder();
+
+                if (cur == '0') {
+                    if (z == 0) {
+                        ok = false;
+                        break;
+                    }
+                    sb.append('0');
+                    z--;
+                    cur = '1';
+                } else {
+                    if (o == 0) {
+                        ok = false;
+                        break;
+                    }
+                    sb.append('1');
+                    o--;
+                    cur = '0';
+                }
+
+                seg.add(sb);
+            }
+
+            if (!ok) {
+                System.out.println(-1);
+                continue;
+            }
+
+            // Extend each block
+            for (StringBuilder sb : seg) {
+                if (sb.charAt(0) == '0') {
+                    while (z > 0) {
+                        sb.append('0');
+                        z--;
+                    }
+                } else {
+                    while (o > 0) {
+                        sb.append('1');
+                        o--;
+                    }
+                }
+            }
+
+            StringBuilder ans = new StringBuilder();
+
+            for (StringBuilder sb : seg)
+                ans.append(sb);
+
+            if (ans.length() != n)
+                System.out.println(-1);
+            else
+                System.out.println(ans);
+        }
+
+        sc.close();
+    }
+}
