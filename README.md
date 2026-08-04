@@ -11,3 +11,4 @@
 | 9 | [41A - Translation](./Codeforces/basic/41A%20-%20Translation) | [Codeforces](https://codeforces.com/problemset/problem/41/A) | basic | 04 Aug 2026 | 03:13 pm |
 | 10 | [96A - Football](./Codeforces/basic/96A%20-%20Football) | [Codeforces](https://codeforces.com/problemset/problem/96/A) | basic | 04 Aug 2026 | 03:13 pm |
 | 11 | [734A - Anton and Danik](./Codeforces/basic/734A%20-%20Anton%20and%20Danik) | [Codeforces](https://codeforces.com/problemset/problem/734/A) | basic | 04 Aug 2026 | 03:13 pm |
+| 12 | [110A - Nearly Lucky Number](./Codeforces/basic/110A%20-%20Nearly%20Lucky%20Number) | [Codeforces](https://codeforces.com/problemset/problem/110/A) | basic | 04 Aug 2026 | 03:13 pm |
